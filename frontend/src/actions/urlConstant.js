@@ -1,1 +1,1 @@
-export const domainURL = 'http://localhost:8080';
+export const domainURL = 'http://34.210.142.40:8080';

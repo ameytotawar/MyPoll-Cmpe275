@@ -6,13 +6,13 @@ import MainReducer from '../reducers';
 
 const middlewares = applyMiddleware(logger, thunk);
 
-const devTools = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(); 
+// const devTools = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(); 
 
 const store = createStore(
   MainReducer,
   compose(
     middlewares,
-    devTools,
+    // devTools,
   ),
 );
 
